@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-websites/static/css/main.63d6379c.css",
-    "main.js": "/personal-websites/static/js/main.07b70224.js",
-    "static/media/clouds.png": "/personal-websites/static/media/clouds.f67cd75494696d0ea7c7.png",
-    "static/media/haystack.png": "/personal-websites/static/media/haystack.cb7d538958ebaebba907.png",
-    "static/media/unemployed.png": "/personal-websites/static/media/unemployed.f691e86f578dff029376.png",
-    "static/media/me.jpg": "/personal-websites/static/media/me.56e471b2c3e7214fc331.jpg",
-    "static/media/earth.jpeg": "/personal-websites/static/media/earth.78e4e79c388d331dd53e.jpeg",
-    "index.html": "/personal-websites/index.html",
-    "main.63d6379c.css.map": "/personal-websites/static/css/main.63d6379c.css.map",
-    "main.07b70224.js.map": "/personal-websites/static/js/main.07b70224.js.map"
+    "main.css": "/personal-website/static/css/main.6aaa525b.css",
+    "main.js": "/personal-website/static/js/main.1848cb3a.js",
+    "static/media/clouds.png": "/personal-website/static/media/clouds.f67cd75494696d0ea7c7.png",
+    "static/media/haystack.png": "/personal-website/static/media/haystack.cb7d538958ebaebba907.png",
+    "static/media/unemployed.png": "/personal-website/static/media/unemployed.f691e86f578dff029376.png",
+    "static/media/me.jpg": "/personal-website/static/media/me.56e471b2c3e7214fc331.jpg",
+    "static/media/earth.jpeg": "/personal-website/static/media/earth.78e4e79c388d331dd53e.jpeg",
+    "index.html": "/personal-website/index.html",
+    "main.6aaa525b.css.map": "/personal-website/static/css/main.6aaa525b.css.map",
+    "main.1848cb3a.js.map": "/personal-website/static/js/main.1848cb3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d6379c.css",
-    "static/js/main.07b70224.js"
+    "static/css/main.6aaa525b.css",
+    "static/js/main.1848cb3a.js"
   ]
 }
