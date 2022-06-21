@@ -3,7 +3,7 @@ const NavBar = () => {
   return (
     <nav
       className="navbar navbar-expand-md
-     bg-dark navbar-dark space-evenly sticky-top"
+     bg-dark navbar-dark space-evenly sticky-top" id='nav'
     >
       <div className="container-fluid">
         <div className="active">
@@ -34,13 +34,23 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://drive.google.com/file/d/19BcdNE_le7wGdpWDF-sYWvaR_2neIW1T/view?usp=sharing">
                 Resume
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#footer">
+                Contact
               </a>
             </li>
           </ul>

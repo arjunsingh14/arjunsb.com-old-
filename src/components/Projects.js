@@ -1,0 +1,44 @@
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import unemployed from "../assets/unemployed.png";
+import haystack from "../assets/haystack.png";
+const Projects = () => {
+  return (
+    <div className="container font-roboto" id="projects">
+      <h1 className="text-light text-center mb-5">Projects</h1>
+      <div className="row">
+        <div className="col-sm-4">
+          <ProjectCard
+            isPicture={true}
+            name="Unemployed"
+            imgLink={unemployed}
+            description="A web app built using React, NodeJS, Express and MongoDB. It is a job
+          tracker that lets users input their job application, position and the
+          status of their application. It features user authentication and
+          storage of a user's job data in a custom API."
+            github="https://github.com/arjunsingh14/unemployed-app"
+          />
+        </div>
+        <div className="col-sm-4">
+          <ProjectCard
+            isPicture={true}
+            name="Haystack"
+            imgLink={haystack}
+            description="A a where's waldo themed game featuring different characters from many genres, made using React."
+            github="https://github.com/arjunsingh14/haystack"
+          />
+        </div>
+        <div className="col-sm-4">
+          <ProjectCard
+            isPicture={false}
+            name="ECommerce User interface"
+            description="An ecommerce system written in Java with a emphasis on Object Oriented Programming. Created as the final project for the academic year."
+            github="https://github.com/arjunsingh14/ECommerceUserInterface-CPS209"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
