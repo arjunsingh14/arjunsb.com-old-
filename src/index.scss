@@ -1,0 +1,21 @@
+@import "bootstrap";
+
+
+$baseColor: #0000;
+$secondaryColor: #4b4b4b;
+
+
+
+.navbar-toggler-icon {
+    color: $secondaryColor;
+}
+
+#first-name {
+    color: $orange-300;
+}
+
+#navLinks {
+    justify-content: end;
+}
+
+
