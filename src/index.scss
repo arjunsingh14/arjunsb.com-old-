@@ -74,14 +74,14 @@ body {
 }
 .planet .background{
   animation: translateBackground 40s infinite linear;  
-  background:url(https://media.gettyimages.com/videos/pan-across-an-unrolled-flattened-planet-earth-video-idalbglobal4_04?s=640x640) repeat-x;
+  background:url("./assets/earth.jpeg") repeat-x;
   width:300px;
   height:300px;
   position:absolute;
   border-radius:50%;
 }
 .planet .clouds{
-  background:url(https://www.pngkey.com/png/full/200-2001465_earth-clouds-2048-earth-clouds-texture-png.png) repeat-x;
+  background:url("./assets/clouds.png") repeat-x;
   width:300px;
   height:300px;
   position:absolute;
