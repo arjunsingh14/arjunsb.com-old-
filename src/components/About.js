@@ -39,8 +39,11 @@ const About = () => {
             </span>{" "}
           </p>
           <div className="row d-flex align-item-center">
-            <a href="https://drive.google.com/file/d/19BcdNE_le7wGdpWDF-sYWvaR_2neIW1T/view?usp=sharing">
-              <button className="btn btn-primary orange-blue-gradient" style={{fontFamily:"monospace"}}>
+            <a href="https://drive.google.com/file/d/1zNXQ873Z-veK64FGDOXBeHnR-IQkOcWK/view?usp=sharing">
+              <button
+                className="btn btn-primary orange-blue-gradient"
+                style={{ fontFamily: "monospace" }}
+              >
                 Resume
               </button>
             </a>
