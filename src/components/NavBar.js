@@ -3,13 +3,14 @@ const NavBar = () => {
   return (
     <nav
       className="navbar navbar-expand-md
-     bg-dark navbar-dark space-evenly sticky-top" id='nav'
+     bg-dark navbar-dark space-evenly sticky-top"
+      id="nav"
     >
       <div className="container-fluid">
         <div className="active">
           <a className="navbar-brand" href="#">
             <strong>
-              <span id='first-name'>Arjun</span> Bhandal
+              <span id="first-name">Arjun</span> Bhandal
             </strong>
           </a>
         </div>
@@ -22,9 +23,7 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className='navbar-toggler-icon'>
-            
-          </span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navLinks">
           <ul className="nav navbar-nav mr-auto">
@@ -44,7 +43,10 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://drive.google.com/file/d/19BcdNE_le7wGdpWDF-sYWvaR_2neIW1T/view?usp=sharing">
+              <a
+                className="nav-link"
+                href="https://drive.google.com/file/d/1zNXQ873Z-veK64FGDOXBeHnR-IQkOcWK/view?usp=sharing"
+              >
                 Resume
               </a>
             </li>
