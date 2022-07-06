@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import unemployed from "../assets/unemployed.png";
-import haystack from "../assets/haystack.png";
+import spotify from "../assets/login.png";
 const Projects = () => {
   return (
     <div className="container font-roboto" id="projects">
@@ -22,10 +22,10 @@ const Projects = () => {
         <div className="col-sm-4">
           <ProjectCard
             isPicture={true}
-            name="Haystack"
-            imgLink={haystack}
-            description="A a where's waldo themed game featuring different characters from many genres, made using React."
-            github="https://github.com/arjunsingh14/haystack"
+            name="Spotify playlist merger"
+            imgLink={spotify}
+            description="A web app that allows a Spotify user to merge their already existing playlists into either a new playlist or an existing one."
+            github="https://github.com/arjunsingh14/spotify-playlist-merger"
           />
         </div>
         <div className="col-sm-4">

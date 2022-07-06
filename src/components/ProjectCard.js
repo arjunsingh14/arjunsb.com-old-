@@ -8,8 +8,8 @@ const ProjectCard = ({ name, imgLink, description, isPicture, github }) => {
         <h2>{name}</h2>
         <p className="card-text">{description}</p>
         <div className="text-b">
-          <a href={github} style={{fontSize: "2rem", color: "black"}}>
-            <FaGithub />
+          <a href={github} className = "btn btn-dark" style={{color: "white"}}>
+            <FaGithub /> Code on github
           </a>
         </div>
       </div>
